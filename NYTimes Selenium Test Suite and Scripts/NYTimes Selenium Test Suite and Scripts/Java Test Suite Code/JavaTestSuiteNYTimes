@@ -1,0 +1,24 @@
+import junit.framework.Test;
+import junit.framework.TestSuite;
+
+public class JavaTestSuiteNYTimes {
+
+  public static Test suite() {
+    TestSuite suite = new TestSuite();
+    suite.addTestSuite(Weather.class);
+    suite.addTestSuite(Login.class);
+    suite.addTestSuite(SavedArticle.class);
+    suite.addTestSuite(ShareArticle.class);
+    suite.addTestSuite(AugmentedReality.class);
+    suite.addTestSuite(VirtualReality.class);
+    suite.addTestSuite(Login-Negative1.class);
+    suite.addTestSuite(Login-Negative2.class);
+    suite.addTestSuite(Login-Negative3.class);
+    suite.addTestSuite(Login-Negative4.class);
+    return suite;
+  }
+
+  public static void main(String[] args) {
+    junit.textui.TestRunner.run(suite());
+  }
+}
