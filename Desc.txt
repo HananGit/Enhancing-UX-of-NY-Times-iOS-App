@@ -1,7 +1,0 @@
-By analyzing a couple of reviews, it turned out that people are not happy with how the NY Times app renders.
-Hence, this project covered all the elements of User Experience and proposed improvements to enhance the UX of the app
-
-
-NY-Times-iOS-App-UX-Enhancing
-
-Enhancing NY Times iOS App (UI-UX)
